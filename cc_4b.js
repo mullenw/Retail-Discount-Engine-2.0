@@ -30,7 +30,7 @@ const customers = [
     { id: 1, customerType: "senior", couponCode: "save10", taxRate: 0.085,
         cart: ({ sku: "001", quantity:2}, {sku: "002", quantity:1})},
     { id: 2, customerType: "student", couponCode: "save15", taxRate: 0.085,
-        cart: ({ sku: "003", quantity:1}, {sku: "004", quantity:1}, {sku: "005", quantity:1})}
+        cart: ({ sku: "003", quantity:1}, {sku: "004", quantity:1}, {sku: "005", quantity:1})},
     { id: 3, customerType: "veteran", couponCode: "save20", taxRate: 0.085,
         cart: ({ sku: "005", quantity:2})}
 ];
