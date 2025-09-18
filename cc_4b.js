@@ -20,10 +20,10 @@ for (let product of products) {
     case "beverages":
         discount = 0;
         break;
-}};
+};
 let promoPrice = product.price * (1 - discount);
 product.promoPrice = promoPrice;
-
+};
 console.log(products)
 
 const customers = [
